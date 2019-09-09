@@ -19,14 +19,15 @@ TTGO-T-Beam
 | I2C_SDA     | 21             | 21         |
 | I2C_SCL     | 22             | 22         |
 | PMU_IRQ     | 35             | N/A        |
-| USER BUTTON | 36             | N/A        |
+| USER BUTTON | 38             | 39         |
+| GPS_PPS     | 37             | N/A        |
 
 ## Power Control Channel
 | Modules | T_BEAM_V10 | T_BEAM_V07 |
 | ------- | ---------- | ---------- |
-| GPS     | LDO3       | No supoort |
-| LORA    | LDO2       | No supoort |
-| OLED    | DCDC1      | No supoort |
+| GPS     | LDO3       | No support |
+| LORA    | LDO2       | No support |
+| OLED    | DCDC1      | No support |
 
 
 ### Button Map
